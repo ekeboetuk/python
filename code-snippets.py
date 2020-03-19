@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> f1da4906a22d0e2c9a8195cdef616b0b1912c49e
 # %%
 # Mathematical Operations
 import math

@@ -8,7 +8,7 @@
 - [ ] Lollipop sugar plum cake cake.
 
 1. I love topping chocolate cake gummi bears gummi bears gummi bears.
-1. I love chupa chups powder pie. 
+1. I love chupa chups powder pie.
 1. Carrot cake dragée topping donut.  
 1. Chocolate cake cupcake chupa chups lollipop candy canes cupcake.
 
