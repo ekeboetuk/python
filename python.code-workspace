@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "/Users/Ekebo.Etuk/Documents/Programming/Python"
+		}
+	],
+	"settings": {
+    	"files.autoSave": "afterDelay",
+    	"window.restoreWindows": "all",
+    	"files.autoSaveDelay": 10000,
+    	"editor.minimap.enabled": false,
+    	"workbench.colorTheme": "Solarized Dark",
+    	"workbench.iconTheme": "material-icon-theme",
+    	"terminal.integrated.rendererType": "dom",
+    	"[python]": {},
+    	"python.pythonPath": "/usr/local/bin/python3",
+		"terminal.integrated.inheritEnv": false,
+		"python.linting.enabled": true,
+		"python.linting.pep8Enabled": true
+	}
+}
