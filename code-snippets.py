@@ -33,4 +33,5 @@ if week_number > 4:
     print("Happy Weekend Dear Customer!")
 print(str.upper(str(week_number) + ": thank you shopping with us"))
 
+
 # %%
