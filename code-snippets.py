@@ -34,7 +34,7 @@ Bill of Quantity
 teller_name = input("Enter Your First and Last Name: ")
 space_index = teller_name.find(" ")
 if space_index == -1:
-    input("Please Enter Your First and Last Name Seperated With A Space: ")
+    input("Please Enter Your First and Last Name: ")
 else:
     last_name = teller_name[space_index + 1:len(teller_name)]
     first_initial = teller_name[0]
