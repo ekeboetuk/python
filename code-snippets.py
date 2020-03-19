@@ -1,5 +1,5 @@
 # %%
-# Mathematical Operations
+# Demo Point of Sales
 import math
 import datetime
 
