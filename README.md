@@ -1,4 +1,4 @@
-# MARKDOWN TEXT IN JUPYTERS NOTEBOOK
+# MARKDOWN
 
 ## Hello there, this is Ekebo Brown. For the next few days I'll be learning how to code with **Python** version while taking breaks in between to learn other codings that will make my studies more interesting it, like the ~~MarkDown~~ code. _The snippet above shows what I have been able to code so far being the elementary aspect of the lesson._ Stay tuned for updates and more  hardcore stuffs
 
