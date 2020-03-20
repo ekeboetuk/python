@@ -36,3 +36,16 @@ print(str.upper("come again next time \n"))
 
 
 # %%
+import datetime
+
+client_name = "Ekebo Brown Etuk"
+date_of_birth = datetime.date(1985, 6, 20)
+
+name_length = len(client_name)
+
+for char in range(name_length):
+    print(str(char+1) + ". Name: " + client_name)
+    print(f"DOB: {date_of_birth: %A %B %d, %Y}")
+print("All Done")
+
+# %%
