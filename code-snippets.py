@@ -5,14 +5,14 @@ import datetime
 
 milo_packet = 2000
 dettol_cool = 300
-eva_water = 150
+eva_water = 1500
 
 total = f"""
 Bill of Quantity
 
 =N= {milo_packet:>8,.2f} - Sachet Milo (Large)
 =N= {dettol_cool:>8,.2f} - Dettol Cool (Big)
-=N= {eva_water:>8,.2f} - Eva Bottle Water (Medium)
+=N= {eva_water:>8,.2f} - Eva Bottle Water (Medium - 1 Carton)
 """
 
 teller_name = input("Enter Your First and Last Name: ")
@@ -31,7 +31,7 @@ print("Timestamp: " + str(time_stamp) + "\n")
 week_number = int(f"{datetime.date.today(): %w}")
 if week_number > 4:
     print("Happy Weekend Dear Customer!")
-print(str.upper(str(week_number) + ": thank you shopping with us"))
+print(str.upper("thank you shopping with us"))
 
 
 # %%
