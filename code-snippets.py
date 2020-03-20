@@ -32,7 +32,7 @@ week_number = int(f"{datetime.date.today(): %w}")
 if week_number > 4:
     print("Happy Weekend Dear Customer!")
 print(str.upper("thank you shopping with us"))
-print(str.upper("come again next time"))
+print(str.upper("come again next time \n"))
 
 
 # %%
