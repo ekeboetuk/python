@@ -38,20 +38,17 @@ print(str.upper("come again next time \n"))
 # %%
 import datetime
 
-client_name = "Ekebo Brown Etuk"
-date_of_birth = datetime.date(1985, 6, 20)
+ict_staff = {
+    'ekebo.etuk':'Ekebo Brown Etuk',
+    'mary.abraham':'Mary Ekereobong Abraham',
+    'uduakobong.ituen':'Uduakobong Ituen',
+    'abasiubong.itama':'Abasiubong Itama',
+    'isreal.ekanim':'Isreal Ekanim'
+}
 
-name_length = len(client_name)
-chars = 0
+for username, fullname in ict_staff.items():
+    print(username + " = " + fullname)
+print("\nEnd of List")
 
-print("Full Name\n" + "-" * 5)
-while chars < name_length:
-    chars += 1
-    if client_name[chars-1] == " ":
-        print("-" * 5)
-        continue
-    print(f"{client_name[chars-1]: >3}")
-print(f"DOB: {date_of_birth: %A %B %d, %Y}")
-print("All Done")
 
 # %%
