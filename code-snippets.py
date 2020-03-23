@@ -46,8 +46,10 @@ ict_staff = {
     'isreal.ekanim':'Isreal Ekanim'
 }
 
+ict_staff.update({'akanimoh.usoh':'Engr. Akanimoh Usoh'})
+
 for username, fullname in ict_staff.items():
-    print(username + " = " + fullname)
+    print(username + " >> " + fullname)
 print("\nEnd of List")
 
 
