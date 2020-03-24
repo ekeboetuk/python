@@ -46,24 +46,25 @@ ict_staff = {
     'isreal.ekanim':'Isreal George Ekanim'
 }
 
+qa_staff = {
+    'edima.ubon':'Edima Ubon Jerry',
+    'rose.genesis': 'Rose Genesis',
+    'nsisong.akwaowo':'Nsisong Akwaowo',
+    'ezekiel.ekoi':'Ezekiel Ekoi'
+}
+
 engr_staff = ict_staff.copy()
 
-engr_staff.update({
-    'akanimoh.usoh':'Engr. Akanimoh Usoh',
-    'edima.ubon':'Edima Ubon Jerry'
-    })
+engr_staff.update(qa_staff)
 
 for username, fullname in engr_staff.items():
     print(username + ": " + fullname)
 
 print("\nEnd of List\n")
 
-for username, fullname in ict_staff.items():
-    print(username + ": " + fullname)
-
 search = input("Enter UserID To Search: ")
 print(ict_staff.get(search,'\nNo such staff in ICT, expanding search scope...\n'))
-print(engr_staff.get(search,'\nNo such staff in Engineering, try again with a difference userID\n'))
+print(engr_staff.get(search,'\nNo such staff in Engineering, try again with a difference userID') + ' in Engineering\n')
 
 
 
