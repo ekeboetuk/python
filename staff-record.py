@@ -12,3 +12,11 @@ staff_details = {
     'entitlements':['leave','medical','wardrope','thirteen_month']
 }
 
+ekebo_etuk_details = ['Ekebo Brown Etuk','IPC/2018/223','Grade 08 Level 05','2018,9,1','Engineering','ICT','Isreal Ekanim','None','None',['22 Days Annual, 7 Days Casual & Sick leave',300000,1000000,122000]]
+
+ekebo_etuk = dict.fromkeys(staff_details.keys())
+
+print(ekebo_etuk)
+print('\n')
+
+# %%
