@@ -13,13 +13,13 @@ ekebo_etuk = Staff('Ekebo Brown Etuk','2018,9,1','ICT','IPC\\202\\2018')
 employed = datetime.datetime.strptime(ekebo_etuk.employment_date,'%Y,%m,%d')
 #print(f"{employed.date(): %d-%b-%y}")
 
-with open('Family.txt',newline='') as fam:
+with open('Family.txt') as fam:
     f = fam.readline()
     while f:
         values = f.split(',')
         for i, n in enumerate(values):
             if(i==0):
-                print(f'{n:>5}',end='')
+                print(f'{n:^5}',end='')
             else:
                 print(f'{n:<18}',end='')
         print('\n')
