@@ -56,14 +56,14 @@ with open('zbar_acct_stmt.csv', encoding='utf-8', newline='') as zas:
             f_income = ''
         if expense == 0:
             f_expense = ''
-        #print(f'{i+1:^5}{trans_date:<20}{f_income:>10}{inc_desc[0:18]:^20}{f_expense:>10}{exp_desc[0:18]:^20}{f_bbf:>12}')
+        print(f'{i+1:^5}{trans_date:<20}{f_income:>10}{inc_desc[0:18]:^20}{f_expense:>10}{exp_desc[0:18]:^20}{f_bbf:>12}')
 
         records[i+1] = dict({'trans_date':trans_date,'income':income,'inc_desc':inc_desc,'expense':expense,'exp_desc':exp_desc,'bbf':bbf})
 
 j_dump = json.dumps(records, indent=6)
-print(j_dump)
+#print(j_dump)
 with open('record_dump.json', 'w', encoding='utf-8') as of:
-    json.dump(records, of, ensure_ascii=False)
+    json.dump(records, of, ensure_ascii=False, indent=6)
 print('\n')
 print(f"{'Total Income = ':>20}", f'₦{total_income:,.2f}')
 print(f"{'Total Expenses = ':>20}", f'₦{total_expense:,.2f}')

@@ -1,1 +1,226 @@
-{"1": {"trans_date": "September 21, 2018", "income": 1000.0, "inc_desc": "Remnant From SpeedBump Appreciation", "expense": 0.0, "exp_desc": "", "bbf": 1000.0}, "2": {"trans_date": "November 18, 2018", "income": 1500.0, "inc_desc": "Donation From Aniefiok In Liu Of Joining The Association", "expense": 0.0, "exp_desc": "", "bbf": 2500.0}, "3": {"trans_date": "November 18, 2018", "income": 1400.0, "inc_desc": "Monthly Dues November 2018", "expense": 0.0, "exp_desc": "", "bbf": 3900.0}, "4": {"trans_date": "November 18, 2018", "income": 30000.0, "inc_desc": "Contribution Towards End Of Year Celebration", "expense": 0.0, "exp_desc": "", "bbf": 33900.0}, "5": {"trans_date": "December 06, 2018", "income": 6000.0, "inc_desc": "Contribution Toward's Aniefiok Support", "expense": 6000.0, "exp_desc": " Aniefiok's Father Burial Support", "bbf": 33900.0}, "6": {"trans_date": "December 06, 2018", "income": 500.0, "inc_desc": "Money From Akaka On Aniefiok's Friends Night", "expense": 0.0, "exp_desc": "", "bbf": 34400.0}, "7": {"trans_date": "December 14, 2018", "income": 500.0, "inc_desc": "Contribution Toward's Aniefiok Support", "expense": 0.0, "exp_desc": "  ", "bbf": 34900.0}, "8": {"trans_date": "December 15, 2018", "income": 0.0, "inc_desc": "", "expense": 26300.0, "exp_desc": " End Of Year Party Expenses", "bbf": 8600.0}, "9": {"trans_date": "December 27, 2018", "income": 2000.0, "inc_desc": " Support From Evang. Asangausung Ukpe", "expense": 0.0, "exp_desc": "", "bbf": 10600.0}, "10": {"trans_date": "January 20, 2019", "income": 2150.0, "inc_desc": "Monthly Dues January 2019", "expense": 0.0, "exp_desc": "", "bbf": 12750.0}, "11": {"trans_date": "February 17, 2019", "income": 2100.0, "inc_desc": "Monthly Dues February 2019", "expense": 0.0, "exp_desc": "", "bbf": 14850.0}, "12": {"trans_date": "March 23, 2019", "income": 0.0, "inc_desc": "", "expense": 4000.0, "exp_desc": " Welfare Towards Member's (Idongesit Meyen) New Born Baby", "bbf": 10850.0}, "13": {"trans_date": "March 24, 2019", "income": 1750.0, "inc_desc": "Monthly Dues March 2019", "expense": 0.0, "exp_desc": "", "bbf": 12600.0}, "14": {"trans_date": "April 21, 2019", "income": 1400.0, "inc_desc": "Monthly Dues April 2019", "expense": 0.0, "exp_desc": "", "bbf": 14000.0}, "15": {"trans_date": "April 26, 2019", "income": 1000.0, "inc_desc": " Membership Interest Declaration By God'sgift Godwin Edet", "expense": 0.0, "exp_desc": "", "bbf": 15000.0}, "16": {"trans_date": "May 02, 2019", "income": 0.0, "inc_desc": "", "expense": 2000.0, "exp_desc": " Visitation To Jacob Ndah On Ill Health", "bbf": 13000.0}, "17": {"trans_date": "May 19, 2019", "income": 1000.0, "inc_desc": "Monthly Dues May 2019", "expense": 0.0, "exp_desc": "", "bbf": 14000.0}, "18": {"trans_date": "June 23, 2019", "income": 900.0, "inc_desc": "Monthly Dues June 2019", "expense": 0.0, "exp_desc": "", "bbf": 14900.0}, "19": {"trans_date": "July 21, 2019", "income": 750.0, "inc_desc": "Monthly Dues July 2019", "expense": 0.0, "exp_desc": "", "bbf": 15650.0}, "20": {"trans_date": "August 05, 2019", "income": 0.0, "inc_desc": "", "expense": 600.0, "exp_desc": " Approved For Circular Dispatch", "bbf": 15050.0}, "21": {"trans_date": "August 11, 2019", "income": 1500.0, "inc_desc": "Monthly Dues August 2019", "expense": 0.0, "exp_desc": "", "bbf": 16550.0}, "22": {"trans_date": "September 08, 2019", "income": 600.0, "inc_desc": "Monthly Dues September 2019", "expense": 0.0, "exp_desc": "", "bbf": 17150.0}, "23": {"trans_date": "October 13, 2019", "income": 1200.0, "inc_desc": "Monthly Dues October 2019", "expense": 0.0, "exp_desc": "", "bbf": 18350.0}, "24": {"trans_date": "October 24, 2019", "income": 0.0, "inc_desc": "", "expense": 300.0, "exp_desc": " Approved For Circular Dispatch", "bbf": 18050.0}, "25": {"trans_date": "November 07, 2019", "income": 0.0, "inc_desc": "", "expense": 200.0, "exp_desc": " Approved For Circular Dispatch", "bbf": 17850.0}, "26": {"trans_date": "November 10, 2019", "income": 300.0, "inc_desc": "Monthly Dues November 2019", "expense": 0.0, "exp_desc": "", "bbf": 18150.0}, "27": {"trans_date": "November 10, 2019", "income": 33500.0, "inc_desc": " End of Year Party Contribution", "expense": 0.0, "exp_desc": "", "bbf": 51650.0}, "28": {"trans_date": "December 21, 2019", "income": 0.0, "inc_desc": "", "expense": 38200.0, "exp_desc": " End Of Year Party Expenses", "bbf": 13450.0}}
+{
+      "1": {
+            "trans_date": "September 21, 2018",
+            "income": 1000.0,
+            "inc_desc": "Remnant From SpeedBump Appreciation",
+            "expense": 0.0,
+            "exp_desc": "",
+            "bbf": 1000.0
+      },
+      "2": {
+            "trans_date": "November 18, 2018",
+            "income": 1500.0,
+            "inc_desc": "Donation From Aniefiok In Liu Of Joining The Association",
+            "expense": 0.0,
+            "exp_desc": "",
+            "bbf": 2500.0
+      },
+      "3": {
+            "trans_date": "November 18, 2018",
+            "income": 1400.0,
+            "inc_desc": "Monthly Dues November 2018",
+            "expense": 0.0,
+            "exp_desc": "",
+            "bbf": 3900.0
+      },
+      "4": {
+            "trans_date": "November 18, 2018",
+            "income": 30000.0,
+            "inc_desc": "Contribution Towards End Of Year Celebration",
+            "expense": 0.0,
+            "exp_desc": "",
+            "bbf": 33900.0
+      },
+      "5": {
+            "trans_date": "December 06, 2018",
+            "income": 6000.0,
+            "inc_desc": "Contribution Toward's Aniefiok Support",
+            "expense": 6000.0,
+            "exp_desc": " Aniefiok's Father Burial Support",
+            "bbf": 33900.0
+      },
+      "6": {
+            "trans_date": "December 06, 2018",
+            "income": 500.0,
+            "inc_desc": "Money From Akaka On Aniefiok's Friends Night",
+            "expense": 0.0,
+            "exp_desc": "",
+            "bbf": 34400.0
+      },
+      "7": {
+            "trans_date": "December 14, 2018",
+            "income": 500.0,
+            "inc_desc": "Contribution Toward's Aniefiok Support",
+            "expense": 0.0,
+            "exp_desc": "  ",
+            "bbf": 34900.0
+      },
+      "8": {
+            "trans_date": "December 15, 2018",
+            "income": 0.0,
+            "inc_desc": "",
+            "expense": 26300.0,
+            "exp_desc": " End Of Year Party Expenses",
+            "bbf": 8600.0
+      },
+      "9": {
+            "trans_date": "December 27, 2018",
+            "income": 2000.0,
+            "inc_desc": " Support From Evang. Asangausung Ukpe",
+            "expense": 0.0,
+            "exp_desc": "",
+            "bbf": 10600.0
+      },
+      "10": {
+            "trans_date": "January 20, 2019",
+            "income": 2150.0,
+            "inc_desc": "Monthly Dues January 2019",
+            "expense": 0.0,
+            "exp_desc": "",
+            "bbf": 12750.0
+      },
+      "11": {
+            "trans_date": "February 17, 2019",
+            "income": 2100.0,
+            "inc_desc": "Monthly Dues February 2019",
+            "expense": 0.0,
+            "exp_desc": "",
+            "bbf": 14850.0
+      },
+      "12": {
+            "trans_date": "March 23, 2019",
+            "income": 0.0,
+            "inc_desc": "",
+            "expense": 4000.0,
+            "exp_desc": " Welfare Towards Member's (Idongesit Meyen) New Born Baby",
+            "bbf": 10850.0
+      },
+      "13": {
+            "trans_date": "March 24, 2019",
+            "income": 1750.0,
+            "inc_desc": "Monthly Dues March 2019",
+            "expense": 0.0,
+            "exp_desc": "",
+            "bbf": 12600.0
+      },
+      "14": {
+            "trans_date": "April 21, 2019",
+            "income": 1400.0,
+            "inc_desc": "Monthly Dues April 2019",
+            "expense": 0.0,
+            "exp_desc": "",
+            "bbf": 14000.0
+      },
+      "15": {
+            "trans_date": "April 26, 2019",
+            "income": 1000.0,
+            "inc_desc": " Membership Interest Declaration By God'sgift Godwin Edet",
+            "expense": 0.0,
+            "exp_desc": "",
+            "bbf": 15000.0
+      },
+      "16": {
+            "trans_date": "May 02, 2019",
+            "income": 0.0,
+            "inc_desc": "",
+            "expense": 2000.0,
+            "exp_desc": " Visitation To Jacob Ndah On Ill Health",
+            "bbf": 13000.0
+      },
+      "17": {
+            "trans_date": "May 19, 2019",
+            "income": 1000.0,
+            "inc_desc": "Monthly Dues May 2019",
+            "expense": 0.0,
+            "exp_desc": "",
+            "bbf": 14000.0
+      },
+      "18": {
+            "trans_date": "June 23, 2019",
+            "income": 900.0,
+            "inc_desc": "Monthly Dues June 2019",
+            "expense": 0.0,
+            "exp_desc": "",
+            "bbf": 14900.0
+      },
+      "19": {
+            "trans_date": "July 21, 2019",
+            "income": 750.0,
+            "inc_desc": "Monthly Dues July 2019",
+            "expense": 0.0,
+            "exp_desc": "",
+            "bbf": 15650.0
+      },
+      "20": {
+            "trans_date": "August 05, 2019",
+            "income": 0.0,
+            "inc_desc": "",
+            "expense": 600.0,
+            "exp_desc": " Approved For Circular Dispatch",
+            "bbf": 15050.0
+      },
+      "21": {
+            "trans_date": "August 11, 2019",
+            "income": 1500.0,
+            "inc_desc": "Monthly Dues August 2019",
+            "expense": 0.0,
+            "exp_desc": "",
+            "bbf": 16550.0
+      },
+      "22": {
+            "trans_date": "September 08, 2019",
+            "income": 600.0,
+            "inc_desc": "Monthly Dues September 2019",
+            "expense": 0.0,
+            "exp_desc": "",
+            "bbf": 17150.0
+      },
+      "23": {
+            "trans_date": "October 13, 2019",
+            "income": 1200.0,
+            "inc_desc": "Monthly Dues October 2019",
+            "expense": 0.0,
+            "exp_desc": "",
+            "bbf": 18350.0
+      },
+      "24": {
+            "trans_date": "October 24, 2019",
+            "income": 0.0,
+            "inc_desc": "",
+            "expense": 300.0,
+            "exp_desc": " Approved For Circular Dispatch",
+            "bbf": 18050.0
+      },
+      "25": {
+            "trans_date": "November 07, 2019",
+            "income": 0.0,
+            "inc_desc": "",
+            "expense": 200.0,
+            "exp_desc": " Approved For Circular Dispatch",
+            "bbf": 17850.0
+      },
+      "26": {
+            "trans_date": "November 10, 2019",
+            "income": 300.0,
+            "inc_desc": "Monthly Dues November 2019",
+            "expense": 0.0,
+            "exp_desc": "",
+            "bbf": 18150.0
+      },
+      "27": {
+            "trans_date": "November 10, 2019",
+            "income": 33500.0,
+            "inc_desc": " End of Year Party Contribution",
+            "expense": 0.0,
+            "exp_desc": "",
+            "bbf": 51650.0
+      },
+      "28": {
+            "trans_date": "December 21, 2019",
+            "income": 0.0,
+            "inc_desc": "",
+            "expense": 38200.0,
+            "exp_desc": " End Of Year Party Expenses",
+            "bbf": 13450.0
+      }
+}
