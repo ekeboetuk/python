@@ -22,15 +22,17 @@ with name_list as nl:
 # %%
 import datetime as dt
 from re import sub
-import csv
+import csv, json
+
+records = {}
 
 with open('zbar_acct_stmt.csv', encoding='utf-8', newline='') as zas:
     reader = enumerate(csv.reader(zas))
     zas.readline()
     heading = f"""
-    \n{'S/N':^5}{'TRANS DATE':<20}{'INCOME':>12}{'DESCRIPTION':^20}{'EXPENSES':>12}{'DESCRIPTION':^20}{'BALANCE':>14}"""
+    \n{'S/N':^5}{'TRANS DATE':<20}{'INCOME':>10}{'DESCRIPTION':^20}{'EXPENSES':>10}{'DESCRIPTION':^20}{'BALANCE':>12}"""
     print(heading)
-    print('-'*110)
+    print('-'*100)
     total_income = 0
     total_expense = 0
     for i, row in reader:
@@ -50,8 +52,18 @@ with open('zbar_acct_stmt.csv', encoding='utf-8', newline='') as zas:
         f_expense = '₦'+f'{expense:,.2f}'
         f_bbf = '₦'+f'{bbf:,.2f}'
         trans_date = f'{trans_date:%B %d, %Y}'
-        print(f'{i+1:>5}', f'{trans_date:<20}', f'{f_income:>10}', f'{inc_desc[0:18]:<20}', f'{f_expense:>10}', f'{exp_desc[0:18]:<20}', f'{f_bbf:>12}')
+        if income == 0:
+            f_income = ''
+        if expense == 0:
+            f_expense = ''
+        #print(f'{i+1:^5}{trans_date:<20}{f_income:>10}{inc_desc[0:18]:^20}{f_expense:>10}{exp_desc[0:18]:^20}{f_bbf:>12}')
 
+        records[i+1] = dict({'trans_date':trans_date,'income':income,'inc_desc':inc_desc,'expense':expense,'exp_desc':exp_desc,'bbf':bbf})
+
+j_dump = json.dumps(records, indent=6)
+print(j_dump)
+with open('record_dump.json', 'w', encoding='utf-8') as of:
+    json.dump(records, of, ensure_ascii=False)
 print('\n')
 print(f"{'Total Income = ':>20}", f'₦{total_income:,.2f}')
 print(f"{'Total Expenses = ':>20}", f'₦{total_expense:,.2f}')
