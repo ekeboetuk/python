@@ -68,7 +68,5 @@ print('\n')
 print(f"{'Total Income = ':>20}", f'₦{total_income:,.2f}')
 print(f"{'Total Expenses = ':>20}", f'₦{total_expense:,.2f}')
 print(f"{'Balance = ':>20}", f'₦{total_income-total_expense:,.2f}')
-    
-
 
 # %%
