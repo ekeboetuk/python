@@ -15,8 +15,4 @@ for link in content.find_all('a'):
 print()
 for i,list in enumerate(link_list):
     print(f'{i:>4}', ' - ', list)
-    
-
-
-
 # %%
