@@ -61,6 +61,7 @@ with open('zbar_acct_stmt.csv', encoding='utf-8', newline='') as zas:
         records[i+1] = dict({'trans_date':trans_date,'income':income,'inc_desc':inc_desc,'expense':expense,'exp_desc':exp_desc,'bbf':bbf})
 
 j_dump = json.dumps(records, indent=6)
+#print('\n Record Dump')
 #print(j_dump)
 with open('record_dump.json', 'w', encoding='utf-8') as of:
     json.dump(records, of, ensure_ascii=False, indent=6)
